@@ -1,0 +1,12 @@
+[
+    {  "id":  1,  "name":  "NarutoUzumaki",         "age":  24,  "designation":  "Hokage"},  
+    {  "id":  2,  "name":  "SasukeUchiha",          "age":  24,  "designation":  "ShadowHokage"},  
+    {  "id":  3,  "name":  "AsumaSarutobi",         "age":  39,  "designation":  "Sensei"},  
+    {  "id":  4,  "name":  "LightYagami",           "age":  21,  "designation":  "Human"},  
+    {  "id":  5,  "name":  "Saitama",               "age":  32,  "designation":  "OnePunchMan"},  
+    {  "id":  6,  "name":  "Zenos",                 "age":  14,  "designation":  "Cyborg"},  
+    {  "id":  7,  "name":  "Kakarot",               "age":  45,  "designation":  "Saiyan"},  
+    {  "id":  8,  "name":  "Vegeta",                "age":  46,  "designation":  "Prince"},  
+    {  "id":  9,  "name":  "EthernalNatsuDragonel", "age":  20,  "designation":  "DragonSlayer"},  
+    {  "id":  10, "name":  "MonkeyDLuffy",          "age":  22,  "designation":  "PirateKing"}
+]

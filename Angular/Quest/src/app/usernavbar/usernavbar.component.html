@@ -1,0 +1,21 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myUserNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" routerLink="/user">{{employeeid}}</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myUserNavbar">
+      <ul class="nav navbar-nav">
+        <li><a routerLink="/search"><span class="glyphicon glyphicon-search"></span> Questions</a></li>
+        <li><a routerLink="/ask"><span class="glyphicon glyphicon-pencil"></span> Ask</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a (click)="terminateaccess()"><span class="glyphicon glyphicon-remove"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

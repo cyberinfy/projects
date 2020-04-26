@@ -1,0 +1,32 @@
+.field{
+    display: inline-block;
+    text-align: left;
+    width: 250px;
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.btn{
+    margin: 15px;
+}
+.content{
+    background: silver;
+    margin-top: 170px;
+    position: relative;
+    overflow: auto; 
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+h3{
+    margin-left: 40px;
+    color: rgb(50,50,50);
+    font-style: bold
+}

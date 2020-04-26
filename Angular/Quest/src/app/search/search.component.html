@@ -1,0 +1,30 @@
+<div class="content">
+<app-usernavbar></app-usernavbar>
+<div class="tableheader">
+<table align="center">
+  <thead>
+    <tr id="searchtr">
+      <th colspan="4">
+        <input id="searchfield" type="text" [(ngModel)]="querystring" placeholder="Enter your query">
+      </th>
+    </tr>
+    <tr id="tableheaders">
+      <th class="sno">S no</th>
+      <th class="description">Description</th>
+      <th class="stream">Stream</th>
+    </tr>
+  </thead>
+</table>
+</div>
+<div class="tabledata">
+<table align="center">
+    <tbody>
+    <tr *ngFor="let question of  listofquestions| filterdata: querystring: 'description' ; let i = index ">
+      <td class="sno">{{i+1}}</td>
+      <td class="description">{{question.description}}</td>
+      <td class="stream">{{question.stream}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>

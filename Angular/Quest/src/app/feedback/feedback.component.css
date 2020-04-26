@@ -1,0 +1,10 @@
+:host{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    background: silver;
+    margin-top: 170px;
+    position: relative;
+    overflow: auto; 
+}

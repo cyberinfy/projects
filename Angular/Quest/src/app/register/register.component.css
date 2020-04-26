@@ -1,0 +1,29 @@
+.content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/login_background.gif");
+    background-size: cover;  
+}
+.card{
+    background: silver;
+    align-self: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+.field{
+	font-size: 20px;
+	font-family: verdana; 
+    width: 250px;
+    margin: 10px;
+    text-align: left
+}
+.btn{
+
+    width: 150px;
+	margin: 10px;
+	font-size: 20px;
+    font-family: verdana;
+}

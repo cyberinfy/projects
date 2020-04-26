@@ -1,0 +1,15 @@
+.navbar-brand{
+    color: ghostwhite;
+}
+.navbar{
+       margin-bottom: 0!important;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 14px;
+}
+:host{
+    z-index: 3;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}

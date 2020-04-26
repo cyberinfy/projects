@@ -1,0 +1,31 @@
+<div class="content">
+    <header>Thankyou for choosing our network 😃</header>
+    <form>
+			<label id="choice-lbl" class="field">Select your choice</label>
+			<select id="choice" class="field">
+				<option value="First 4 digits">First 4 digits</option>
+				<option value="Last 4 digits">Last 4 digits</option>
+				<option value="Full number">Full number</option>
+			</select>
+			<br>
+            <label id="series-lbl" class="field">Series</label>
+            <div class="field">
+                    <input name="series" value="6" type="radio"/><span>6 </span>
+                    <input name="series" value="7" type="radio"/><span>7 </span> 
+                    <input name="series" value="8" type="radio"/><span>8 </span>
+                    <input name="series" value="9" type="radio" checked/><span>9 </span>
+            </div>
+           
+            <br>
+			<label id="preference-lbl" class="field">Preferred number</label>
+			<input id="preference" class="field" type="number"/>
+			<br>
+			<button class="btn btn-primary" type="button" (click)="fetchit()">Fetch</button>
+			<br>
+			<label id="select-lbl" class="field">Pick a number</label>
+			<select id="select" class="field">
+			</select>
+			<br>
+			<button class="btn btn-success" type="button" (click)="storenumber()">Submit</button>
+	</form>
+</div>
