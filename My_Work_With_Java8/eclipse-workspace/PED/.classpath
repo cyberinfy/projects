@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_251/jre/lib/ext/jfxrt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/PED/src/lib/controlsfx-8.40.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/PED/src/lib/guava-22.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/PED/src/lib/jfoenix.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/PED/src/lib/marytts-builder-5.2-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/PED/src/lib/marytts-lang-en-5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/PED/src/lib/sqlite-jdbc-3.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/PED/src/lib/voice-cmu-bdl-hsmm-5.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

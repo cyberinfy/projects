@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1116.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController2">
+   <children>
+      
+      <Label layoutX="35.0" layoutY="257.0" text="Date Of Examination:-" AnchorPane.leftAnchor="35.0" />
+      <Label layoutX="38.0" layoutY="26.0" text="Examinations Year:" AnchorPane.leftAnchor="35.0" />
+      <Label layoutX="36.0" layoutY="84.0" text="Examination Month:" AnchorPane.leftAnchor="35.0" />
+      <Label layoutX="35.0" layoutY="198.0" text="Semester:" AnchorPane.leftAnchor="35.0" />
+      <TextField fx:id="ExamYear" layoutX="378.0" layoutY="21.0" />
+      <TextField fx:id="ExamMonth" layoutX="378.0" layoutY="79.0" />
+      <TextField fx:id="ExamDate" layoutX="378.0" layoutY="136.0" />
+      <TextField fx:id="Semester" layoutX="378.0" layoutY="193.0" />
+      <DatePicker fx:id="DateoE" layoutX="378.0" layoutY="252.0" prefHeight="31.0" prefWidth="247.0" />
+      <Label layoutX="35.0" layoutY="336.0" text="Trade:" AnchorPane.leftAnchor="35.0" />
+      <TextField fx:id="Trade" layoutX="380.0" layoutY="320.0" />
+      <Label layoutX="34.0" layoutY="385.0" text="Starting OMR number:" AnchorPane.leftAnchor="35.0" />
+      <TextField fx:id="OMRsheetn" layoutX="380.0" layoutY="380.0" />
+      <TextField fx:id="Subject" layoutX="378.0" layoutY="443.0" />
+     <Button fx:id="button3" layoutX="636.0" layoutY="580.0" mnemonicParsing="false" onAction="#button3Pressed" prefHeight="31.0" prefWidth="327.0" text="Next" />
+      <Label layoutX="35.0" layoutY="142.0" text="From Examination Date:" AnchorPane.leftAnchor="35.0" />
+      
+      <RadioButton fx:id="An" layoutX="752.0" layoutY="257.0" mnemonicParsing="false" text="AN" />
+      <RadioButton fx:id="Fn" layoutX="877.0" layoutY="257.0" mnemonicParsing="false" text="FN" />
+      <Label layoutX="41.0" layoutY="448.0" text="Subject:" AnchorPane.leftAnchor="35.0" />
+      <Button fx:id="HomeB" layoutX="909.0" layoutY="21.0" mnemonicParsing="false" onAction="#HomeBPressed" text="Home" AnchorPane.rightAnchor="100.0" />
+
+ </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

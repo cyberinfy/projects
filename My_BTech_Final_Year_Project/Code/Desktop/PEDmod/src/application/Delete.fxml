@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="deletePane" onDragDetected="#deleteFromDbBtnSelected" prefHeight="660.0" prefWidth="864.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DeleteController">
+   <children>
+      <JFXTextField fx:id="inputWord" alignment="TOP_CENTER" focusColor="#517abd" labelFloat="true" layoutX="59.0" layoutY="111.0" promptText="Word" unFocusColor="#323232" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="85.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="deleteFromDbBtn" buttonType="RAISED" layoutX="692.0" layoutY="136.0" onAction="#deleteFromDbBtnSelected" style="-fx-background-color: #517abd#517abd;" text="DELETE" textFill="#fafafa" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

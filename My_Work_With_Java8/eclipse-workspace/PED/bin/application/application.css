@@ -1,0 +1,119 @@
+JFXButton
+{
+	-fx-cursor: hand;
+}
+#HomeBtn:hover,#LoadBtn:hover,#ExitBtn:hover,#AddBtn:hover,#AboutBtn:hover,#UpdateBtn:hover,#DeleteBtn:hover
+{
+	-fx-text-fill: #517abd;
+}
+.root
+{
+	-fx-text-fill: rgb(50,50,50);
+	-fx-font-weight: bold;
+	-fx-font-size:20.0;
+}
+
+
+#wordLbl,#typeLbl,#definitionLbl
+{
+	-fx-text-fill: #323232;
+}
+
+JFXTextArea .scroll-bar:vertical .thumb {
+    -fx-background-color:#323232;
+
+
+}
+JFXListView
+{
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-font-size: 20; 
+	-fx-font-weight: normal;
+	-fx-border-color: #ffffff;
+	-fx-background-insets: 0;
+	-fx-border-radius: 0.0;
+	-fx-start-margin: 10.0;
+}
+
+JFXListCell
+{
+	-fx-background-insets: 0.0;
+	-fx-border-insets: 0.0;
+	-fx-vgap: 10.0;
+}
+
+
+JFXListCell:hover
+{
+	-fx-background-color:#e6f4fb  ;
+}
+
+JFXListCell:selected
+{
+	-fx-background-color:  #517abd;
+}
+
+JFXHamburger{
+		-fx-background-color: #517abd;
+}
+
+JFXHamburger StackPane {
+	-fx-background-color: #ffffff;
+}
+
+
+
+
+.auto-complete-popup {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0.0px;
+    -fx-background-radius: 0.0px;
+    -fx-border-width: 0.0px;
+    -fx-border-color: transparent;
+    -fx-border-radius: 0.0px;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+.auto-complete-popup > .list-view {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0.0px;
+    -fx-background-radius: 0.0px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0.0px;
+    -fx-border-radius: 0.0px;
+    -fx-padding: 0.0px;
+
+}
+.auto-complete-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0.0px;
+    -fx-alignment: CENTER-LEFT;
+    -fx-text-fill:  #323232;
+    -fx-font-size: 1.0em;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-weight: normal;
+    -fx-padding: 8.0px;
+    -fx-cursor: hand;
+    -fx-font-family: "Segoe UI Semibold";
+}
+.auto-complete-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled 
+{
+	
+}
+.auto-complete-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:hover
+{
+    -fx-background-color: #517abd;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+.jfx-snackbar-content
+{
+	-fx-background-color: #323232;
+}
+.jfx-snackbar-toast
+{
+	-fx-text-fill: rgb(250,250,250)
+}
+
+

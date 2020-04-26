@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="660.0" prefWidth="262.0" style="-fx-background-color: #e6f4fb;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NavigationController">
+   <children>
+      <StackPane prefHeight="154.0" prefWidth="266.0">
+         <children>
+            <ImageView fx:id="nicon" fitHeight="172.0" fitWidth="268.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </StackPane>
+      <JFXButton fx:id="HomeBtn" onAction="#switchToMain" prefHeight="46.0" prefWidth="283.0" ripplerFill="GREY" style="-fx-background-color: #e6f4fb;" stylesheets="@application.css" text="   Find          " textFill="#323232">
+         <font>
+            <Font name="Segoe UI Semibold" size="21.0" />
+         </font>
+         <graphic>
+            <ImageView fx:id="HomeIcn" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></JFXButton>
+      <JFXButton fx:id="AddBtn" onAction="#switchToAdd" prefHeight="46.0" prefWidth="282.0" ripplerFill="GREY" style="-fx-background-color: #e6f4fb;" text="   Add           " textFill="#323232">
+         <font>
+            <Font name="Segoe UI Semibold" size="21.0" />
+         </font>
+         <graphic>
+            <ImageView fx:id="AddIcn" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></JFXButton>
+      <JFXButton fx:id="UpdateBtn" onAction="#switchToUpdate" prefHeight="46.0" prefWidth="282.0" ripplerFill="GREY" style="-fx-background-color: #e6f4fb;" text="   Update      " textFill="#323232">
+         <font>
+            <Font name="Segoe UI Semibold" size="21.0" />
+         </font>
+         <graphic>
+            <ImageView fx:id="UpdateIcn" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></JFXButton>
+      <JFXButton fx:id="DeleteBtn" onAction="#switchToDelete" prefHeight="46.0" prefWidth="282.0" ripplerFill="GREY" style="-fx-background-color: #e6f4fb;" text="   Delete        " textFill="#323232">
+         <font>
+            <Font name="Segoe UI Semibold" size="21.0" />
+         </font>
+         <graphic>
+            <ImageView fx:id="DeleteIcn" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></JFXButton>
+      <JFXButton fx:id="LoadBtn" onAction="#switchToLoad" prefHeight="51.0" prefWidth="282.0" ripplerFill="GREY" style="-fx-background-color: #e6f4fb;" text="   Load         " textFill="#323232">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fx:id="LoadIcn" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+
+      <JFXButton fx:id="AboutBtn" onAction="#switchToAbout" prefHeight="48.0" prefWidth="281.0" ripplerFill="GREY" style="-fx-background-color: #e6f4fb;" text="   About        " textFill="#323232">
+         <font>
+            <Font name="Segoe UI Semibold" size="22.0" />
+         </font>
+         <graphic>
+            <ImageView fx:id="AboutIcn" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="ExitBtn" onAction="#exitSelected" prefHeight="31.0" prefWidth="270.0" ripplerFill="GREY" text="   Exit           " textFill="#323232">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+         <graphic>
+            <ImageView fx:id="ExitIcn" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+   </children>
+</VBox>

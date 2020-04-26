@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" prefHeight="660.0" prefWidth="864.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FindController">
+   <children>
+      <JFXTextField fx:id="inputWord" alignment="TOP_CENTER" focusColor="#517abd" labelFloat="true" layoutX="60.0" layoutY="125.0" prefHeight="51.0" prefWidth="624.0" promptText="Word" unFocusColor="#323232" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="85.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="findBtn" buttonType="RAISED" layoutX="655.0" layoutY="136.0" onAction="#findBtnSelected" ripplerFill="BLACK" style="-fx-background-color: #517abd;" text="Find" textFill="WHITE" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="pronounciationBtn" layoutX="60.0" layoutY="234.0" onAction="#pronounciationBtnSelected" ripplerFill="WHITE" text=" " AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="140.0">
+           <graphic>
+            <ImageView fx:id="pronounceIcn" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <HBox alignment="TOP_CENTER" prefHeight="51.0" prefWidth="584.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" AnchorPane.topAnchor="140.0">
+         <children>   
+         <JFXButton fx:id="previousBtn" layoutX="671.0" layoutY="30.0" onAction="#previousBtnSelected" ripplerFill="WHITE" text=" ">
+         <graphic>
+            <ImageView fx:id="previousIcn" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="nextBtn" layoutX="736.0" layoutY="30.0" onAction="#nextBtnSelected" ripplerFill="WHITE" text=" ">
+         <graphic>
+            <ImageView fx:id="nextIcn" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      </children>
+      </HBox>
+      <JFXTextField fx:id="wordType" focusColor="#517abd" labelFloat="true" layoutX="60.0" layoutY="342.0" promptText="Type" unFocusColor="#323232" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="300.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextArea fx:id="wordMeaning" focusColor="#517abd" labelFloat="true" layoutX="60.0" layoutY="456.0" prefHeight="194.0" prefWidth="744.0" promptText="Definition" unFocusColor="#323232" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="400.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </JFXTextArea>
+
+      
+   </children>
+   
+</AnchorPane>

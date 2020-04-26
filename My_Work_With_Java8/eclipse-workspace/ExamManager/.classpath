@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/ExamManager/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/ExamManager/ooxml-schemas-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/ExamManager/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/ExamManager/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/ExamManager/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/ExamManager/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/ExamManager/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/ExamManager/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/krishna/eclipse-workspace/ExamManager/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_251/jre/lib/ext/jfxrt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

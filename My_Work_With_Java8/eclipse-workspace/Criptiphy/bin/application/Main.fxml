@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+       <ImageView fitHeight="90.0" fitWidth="1024.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.6">
+               <image>
+                  <Image url="@conv.gif" />
+               </image>
+            </ImageView>
+            <Button fx:id="plainToCipherButton" layoutX="252.0" layoutY="302.0" mnemonicParsing="false" onAction="#plainToCipherButtonPressed" prefHeight="31.0" prefWidth="497.0" text="Plain Text to Cipher" />
+            <Button fx:id="cipherToPlainButton" layoutX="252.0" layoutY="431.0" mnemonicParsing="false" onAction="#cipherToPlainButtonPressed" prefHeight="31.0" prefWidth="497.0" text="Cipher to Plain Text" />
+      <Label layoutX="33.0" layoutY="122.0" text="Welcome please choose your option to get started" />  
+   </children>
+</AnchorPane>

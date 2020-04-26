@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="addPane" prefHeight="660.0" prefWidth="864.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddController">
+   <children>
+      <JFXTextField fx:id="inputWord" alignment="TOP_CENTER" focusColor="#517abd" labelFloat="true" layoutX="60.0" layoutY="89.0" prefHeight="31.0" prefWidth="748.0" promptText="Word" unFocusColor="#323232" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="85.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="inputType" focusColor="#517abd" labelFloat="true" layoutX="60.0" layoutY="216.0" promptText="Type" unFocusColor="#323232" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="216.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextArea fx:id="inputMeaning" focusColor="#517abd" labelFloat="true" layoutX="60.0" layoutY="327.0" prefHeight="219.0" prefWidth="744.0" promptText="Definition" unFocusColor="#323232" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="320.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </JFXTextArea>
+      <JFXButton fx:id="AddToDbBtn" buttonType="RAISED" layoutX="60.0" layoutY="652.0" onAction="#AddToDbBtnSelected" style="-fx-background-color: #517abd;" text="Add" textFill="#fafafa" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="60.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

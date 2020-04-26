@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;lib&apos; to &apos;ExeTester/src&apos;&#x0D;&#x0A;- Original project: &apos;PEDmod&apos;&#x0D;&#x0A;- Destination element: &apos;ExeTester/src&apos;&#x0D;&#x0A;- Original element: &apos;PEDmod/src/lib&apos;" description="Copy package" destination="=ExeTester/src" element1="/src&lt;lib" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1522034886396" version="1.0"/>
+</session>

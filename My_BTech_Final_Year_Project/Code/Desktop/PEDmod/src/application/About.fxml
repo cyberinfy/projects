@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="aboutPane" prefHeight="660.0" prefWidth="864.0" style="-fx-background-color: #ffffff;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AboutController">
+   <children>
+      <Label layoutX="40.0" layoutY="121.0" prefHeight="40.0" prefWidth="459.0" text="If you like our project please follow us on" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="100.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="webLink" layoutX="403.0" layoutY="76.0" text="PED" AnchorPane.leftAnchor="553.0" AnchorPane.topAnchor="35.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </Hyperlink>
+ 
+      <Hyperlink fx:id="googleplus" layoutX="40.0" layoutY="653.0" maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" AnchorPane.leftAnchor="240.0" AnchorPane.topAnchor="170.0">
+         <graphic>
+            <ImageView fx:id="googleIcn" fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Hyperlink>
+      <Hyperlink fx:id="facebook" layoutX="155.0" layoutY="655.0" maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" AnchorPane.leftAnchor="340.0" AnchorPane.topAnchor="170.0">
+         <graphic>
+            <ImageView fx:id="facebookIcn" fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Hyperlink>
+      <Hyperlink fx:id="twitter" layoutX="275.0" layoutY="669.0" maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" AnchorPane.leftAnchor="440.0" AnchorPane.topAnchor="170.0">
+         <graphic>
+            <ImageView fx:id="twitterIcn" fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Hyperlink>
+      <Hyperlink fx:id="youtube" layoutX="413.0" layoutY="655.0" maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" AnchorPane.leftAnchor="540.0" AnchorPane.topAnchor="170.0">
+         <graphic>
+            <ImageView fx:id="youtubeIcn" fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Hyperlink>
+      <Label layoutX="40.0" layoutY="81.0" prefHeight="35.0" prefWidth="361.0" text="A big thank you on behalf of the " AnchorPane.leftAnchor="190.0" AnchorPane.topAnchor="40.0">
+      <font>
+      <Font name="Segoe UI Semibold" size="24.0" />
+      </font>
+      </Label>
+      <Label layoutX="468.0" layoutY="81.0" text="team!" AnchorPane.leftAnchor="618.0" AnchorPane.topAnchor="40.0">
+            <font>
+      <Font name="Segoe UI Semibold" size="24.0" />
+      </font>
+      </Label>
+      <Label fx:id="label" layoutX="357.0" layoutY="330.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="250.0">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
