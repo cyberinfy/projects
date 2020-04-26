@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../CSS/register.css">
+	<script src="../JS/register.js"> </script>
+
+<title>Registration Page</title>
+</head>
+<body>
+
+	<div class="form-wrap">
+		<form>
+			<fieldset>
+<h1>Registration form </h1>
+		
+        Name: <input type="text" placeholder="Enter Name" id="name" name="firstname" required> <br>
+       Date of Birth: <input type="date" placeholder="Enter date of birth" name="dob" required > <br>
+       Email: <input type="email" placeholder="Enter Email" id="email" name="email" required><br>
+       Phone Number: <input type="number" placeholder="Enter phone number" id="num" name="phonenumber"/>  
+
+      Select Country: <select style="max-width:100% " name="country" placeholder="enter country" style="width:160px"> 
+      	
+    <option value="india">india</option>  
+    <option value="pakistan">pakistan</option>  
+    <option value="africa">africa</option>  
+    <option value="china">china</option>  
+    <option value="other">other</option>  
+</select>  <br>
+     Select State:<select style="max-width:100% " name="state" id="register_state" style="width:160px"> 
+    <option value="AndhraPradesh">AndhraPradesh</option>  
+    <option value="Assam">Assam</option>  
+    <option value="Bihar">Bihar</option>
+    <option value="Banglore">Banglore</option>  
+    <option value="Chennai">Chennai</option>    
+    <option value="Delhi">Delhi</option>
+    <option value="Mumbai">Mumbai</option>   
+    <option value="Telanagana">Telangana</option> 
+ </select>  <br>
+ </table>	
+<input  type="button" onClick="validateform()" value="submit"> 
+    </fieldset>
+		</form>
+	</div>
+</body>
+
+</html>

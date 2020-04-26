@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../CSS/home.css">
+		<script src="../JS/home.js"></script>
+    </head>
+    <body>
+        <center>
+        <header>Thankyou for choosing our network 😃</header>
+        </center>
+        <form>
+			<label id="choice-lbl" class="field">Select your choice</label>
+			<select id="choice" class="field">
+				<option>First 4 digits</option>
+				<option>Last  4 digits</option>
+				<option>Full number</option>
+			</select>
+			<br>
+
+			<label id="preference-lbl" class="field">Preferred number</label>
+			<input id="preference" class="field" type="number"/>
+			<br>
+			<input id="fetch" class="btn" type="button" onClick="fetchit()"  value="Fetch" />
+			<br>
+			<label id="select-lbl" class="field">Pick a number</label>
+			<select id="select" class="field">
+			</select>
+			<br>
+			<input id="home_submit" class="btn" type="submit" value="Submit" onclick="alert('successfully submitted')"/>
+		</form>
+    </body>
+</html>

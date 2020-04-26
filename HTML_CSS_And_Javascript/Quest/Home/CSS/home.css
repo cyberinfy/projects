@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    background-image:url(../../Assets/home_background.png);
+    background-size:cover;
+    padding-top: 3%;
+}
+
+header{
+    padding:20px;
+    color:#FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.field{
+	display: inline-block;
+	font-size: 20px;
+	font-family: verdana; 
+    width: 250px;
+    margin-top: 10px;
+	margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.btn{
+	width: 150px;
+	margin-left: 455px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-family: verdana; 
+}
+label{
+	color: rgb(50,50,50);
+}
+
