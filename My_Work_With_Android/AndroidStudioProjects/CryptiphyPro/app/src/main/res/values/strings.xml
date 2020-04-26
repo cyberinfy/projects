@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Cryptiphy</string>
-    <string name="title_home">Home</string>
-    <string name="title_ptoc">Plain To Cipher</string>
-    <string name="ctop">Cipher To Plain</string>
-</resources>
