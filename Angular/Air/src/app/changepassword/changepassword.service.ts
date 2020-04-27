@@ -7,7 +7,7 @@ import { QuestResponse } from '../Model/questresponse';
   providedIn: 'root'
 })
 export class ChangepasswordService {
-private _url = 'http://172.24.128.92:8080/QuestBack/ChangePasswordController';
+private _url = 'http://192.168.0.4:8080/QuestBack/ChangePasswordController';
   constructor(private _http: HttpClient) { }
 performChangePassword(admin: QuestAdmin) {
     const headers: HttpHeaders = new HttpHeaders({ 'Content-Type': 'application/json' });

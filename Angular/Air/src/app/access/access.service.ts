@@ -6,7 +6,7 @@ import { QuestResponse } from '../Model/questresponse';
   providedIn: 'root'
 })
 export class AccessService {
-private _url = 'http://172.24.128.92:8080/QuestBack/AccessController';
+private _url = 'http://192.168.0.4:8080/QuestBack/AccessController';
   constructor(private _http: HttpClient) { }
 performAccess(employeeid: string) {
     const headers: HttpHeaders = new HttpHeaders({ 'Content-Type': 'application/json' });

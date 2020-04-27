@@ -7,7 +7,7 @@ import { User } from '../Model/user';
   providedIn: 'root'
 })
 export class AdduserService {
-private _url = 'http://172.24.128.92:8080/QuestBack/AddUserController';
+private _url = 'http://192.168.0.4:8080/QuestBack/AddUserController';
   constructor(private _http: HttpClient) { }
 performAdduser(user: User) {
     const headers: HttpHeaders = new HttpHeaders({ 'Content-Type': 'application/json' });

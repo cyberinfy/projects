@@ -7,7 +7,7 @@ import { QuestResponse } from '../Model/questresponse';
   providedIn: 'root'
 })
 export class LoginserviceService {
-private _url = 'http://172.24.128.92:8080/QuestBack/LoginController';
+private _url = 'http://192.168.0.4:8080/QuestBack/LoginController';
   constructor(private _http: HttpClient) { }
 performLogin(admin: QuestAdmin) {
     const headers: HttpHeaders = new HttpHeaders({ 'Content-Type': 'application/json' });

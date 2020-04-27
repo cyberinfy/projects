@@ -8,7 +8,7 @@ import { RetrieveAdmin } from '../Model/RetrieveAdmin';
   providedIn: 'root'
 })
 export class AddadminService {
-private _url = 'http://172.24.128.92:8080/QuestBack/AddAdminController';
+private _url = 'http://192.168.0.4:8080/QuestBack/AddAdminController';
   constructor(private _http: HttpClient) { }
 performAddAdmin(admin: QuestAdmin) {
     const headers: HttpHeaders = new HttpHeaders({ 'Content-Type': 'application/json' });

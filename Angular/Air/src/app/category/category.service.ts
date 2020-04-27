@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class CategoryService implements OnInit {
-private _url = 'http://172.24.128.92:8080/QuestBack/CategoryController';
+private _url = 'http://192.168.0.4:8080/QuestBack/CategoryController';
   adminEmployeeid: number;
   constructor(private _router: Router, private _http: HttpClient) { }
 
