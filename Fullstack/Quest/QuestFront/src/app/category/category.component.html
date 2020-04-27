@@ -1,0 +1,16 @@
+<app-adminnavbar></app-adminnavbar>
+<div class="content">
+
+
+<form>
+    <label class="field">Category Name</label><input class="field" id="categoryname" type="text"><br/>
+    <div class="field"></div><input type="button" class="btn btn-primary" value="Add" (click)="addcategory()">
+    <input type="button" class="btn btn-primary" value="Remove" (click)="removecategory()"><br/>
+    <h3><strong>Existing categories</strong></h3>
+    <ul *ngFor="let category of categories">
+        <pre><li>{{category.categoryname}}</li></pre>
+    </ul>
+    <div class="field"></div>
+</form>
+
+</div>

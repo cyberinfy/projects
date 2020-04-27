@@ -1,0 +1,15 @@
+<app-adminnavbar></app-adminnavbar>
+<div class="content">
+<form>
+    <label class="field">Employee ID</label><input class="field" id="employeeid" type="text"><br/>
+    <label class="field">Password</label><input class="field" id="password" type="password"><br/>
+    <div class="field"></div><input type="button" class="btn btn-primary" value="Add" (click)="addadmin()"><br/>
+    <label class="field">Employee ID</label><input class="field" id="employeeidtodelete" type="text"><br/>
+    <div class="field"></div><input type="button" class="btn btn-primary" value="Remove" (click)="removeadmin()"><br/>
+    <h3><strong>Existing Admin Users</strong></h3>
+    <ul *ngFor="let admin of admins">
+        <pre><li>{{admin.employeeid}}</li></pre>
+    </ul>
+    <div class="field"></div>
+</form>
+</div>

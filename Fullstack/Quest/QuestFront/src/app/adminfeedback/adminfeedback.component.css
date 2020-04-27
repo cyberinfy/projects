@@ -1,0 +1,50 @@
+.content{
+    background: silver;
+    margin-top: 170px;
+    position: relative;
+    overflow: auto; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+th,td,table {
+    border-bottom: 1px solid white;
+    padding: 5px;
+    text-align: left;
+}
+
+.employeeid {
+    width:70px;
+    max-width:70px;
+    text-align: center;
+}
+.feedback {
+    width:auto;
+}
+.stream{
+    width:100px;
+    max-width:100px;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+tr:hover{
+    background-color: #66b3ff;
+    color: white
+} 
+.field{
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+
+
+

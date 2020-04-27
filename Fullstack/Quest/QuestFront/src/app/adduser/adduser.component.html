@@ -1,0 +1,21 @@
+<app-adminnavbar></app-adminnavbar>
+<div class="content">
+<form>
+    <label class="field">Employee ID</label><input class="field" id="employeeid" type="text"><br/>
+    <label class="field">Name</label><input class="field" id="name" type="text"><br/>
+    <label class="field">LG</label><input class="field" id="lg" type="text"><br/>
+    <div class="field"></div><input class="btn btn-secondary" type="reset" value="Reset"><input class="btn btn-success" type="button" value="Submit" (click)="adduser()"><br/>
+    <label class="field">Employee ID</label><input class="field" id="employeeidtoremove" type="text"><br/>
+    <div class="field"></div><input class="btn btn-success" type="button" value="Remove" (click)="removeuser()"><br/>
+    <table align="center">
+    <tr>
+        <th>Employee ID</th><th>Employee Name</th><th>LG</th>
+    </tr>
+    <tr *ngFor="let user of users">
+        <td>{{user.employeeid}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.lg}}</td>
+    </tr>
+    </table>
+</form>
+</div>

@@ -1,0 +1,19 @@
+.content{
+    background: silver;
+    margin-top: 170px;
+    position: relative;
+    overflow: auto; 
+}
+.insidecontent{
+    background: silver;
+    align-self: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.name{
+    font-family: fantasy;
+    font-size: 40px;
+}

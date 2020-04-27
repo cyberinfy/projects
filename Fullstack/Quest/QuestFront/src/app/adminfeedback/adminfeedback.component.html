@@ -1,0 +1,32 @@
+<app-adminnavbar></app-adminnavbar>
+<div class="content">
+  <label class="field" for="stream">Stream</label>
+    <input class="field" list="streams" [(ngModel)]="queryString">  
+    <datalist id="streams">
+      <option *ngFor="let c of categories" [value]="c.categoryname">{{c.categoryname}}</option>
+    </datalist>
+
+
+    <table>
+      <tr>
+        <th>Employee_ID</th>
+        <th>FeedBack</th>
+        <th>Stream</th>
+        
+      
+      </tr>
+       <tr *ngFor="let feed of feedbackdetails | filterstream: queryString: 'stream' ;">
+      
+        <td class="employeeid">
+          {{feed.employeeid}}
+        </td>
+          <td class="feedback">
+          {{feed.feedback}}
+        </td>
+          <td class="stream">
+          {{feed.stream}}
+        </td>
+      </tr>
+    </table>
+
+</div>

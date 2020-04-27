@@ -1,0 +1,5 @@
+Java
+JSP
+Angular
+Oracle DB
+Apache Tomcat
